@@ -7,15 +7,24 @@
     <link rel="stylesheet" href="css/main.css">
     <script defer src="js/main.js"></script>
     <title> Choose Your Own Adventure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1> Into the Maze</h1>
     <p> Welcome, Adventurer! You have made it to The Maze. If you can find it's center 
-        you will find untold rewards, but be warned, the path is laden with death and despair! 
+        you will uncover untold rewards, but be warned, the path is laden with death and despair! 
         Can you find your way to glory? Or will you join all the others in their failure?</p>
     <h2>Enter the Maze</h2>
     <div id="begin">
-        <button onclick="listen()" id="button">Enter</button>
+        <button onclick="listen()" id="button">Enter the Maze</button>
+    </div>
+
+    <div id="firstChoice" hidden>
+        <button onclick="goLeft()" id="left"> Take the Left path toward the Sun.</button>
+        <button onclick="goRight()" id="right"> Follow the Right path into the Fog.</button>
+
     </div>
     
 </body>

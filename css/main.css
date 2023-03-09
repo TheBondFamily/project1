@@ -1,1 +1,16 @@
 body {
+    background-image: url(https://th.bing.com/th/id/R.9ca633c5f2e428974ab596d342ec7628?rik=WTx%2fAIpQoDibeA&riu=http%3a%2f%2fprod-upp-image-read.ft.com%2fba1d50a4-0284-11e7-aa5b-6bb07f5c8e12&ehk=%2fe7IJ8pgJqzmhxi1u8R0uGiHIhCwOzX7gQZioQ7zJBU%3d&risl=&pid=ImgRaw&r=0);
+    font-family: 'Creepster', cursive;
+    font-size: 36px;
+    color: black;
+    text-shadow:
+    -1px -1px 0 hsl(0, 11%, 96%),
+     0   -1px 0 hsl(0, 17%, 98%),
+     1px -1px 0 hsl(0, 13%, 95%),
+     1px  0   0 hsl(0, 18%, 97%),
+     1px  1px 0 hsl(0, 10%, 94%),
+     0    1px 0 hsl(0, 20%, 99%),
+    -1px  1px 0 hsl(0, 18%, 97%),
+    -1px  0   0 hsl(0, 9%, 96%);
+    
+}
